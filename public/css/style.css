@@ -1,0 +1,98 @@
+*{
+    font-family: 'Bree Serif', serif;
+    color: #000;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card.small {
+    height: 200px;
+}
+
+html {
+    padding:0px;
+    margin: 0px;
+}
+.error {
+    color: red;
+
+}
+header,
+main,
+footer {
+  padding-left: 320px;
+  padding-right: 0px;
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+.side-nav {
+    background: #2a00ff;
+    color: white !important;
+}
+main, .row {
+  /*background-color:#2a00ff;
+  */
+}
+
+.bordered{
+    border: 4px solid white;
+}
+
+
+
+.btn, .btn-floating {
+  background-color: #2a00ff !important;
+}
+
+.btn:focus {
+  background-color: #2a00ff !important;
+}
+
+a {
+  color: #4a148c;
+}
+.card {
+    color: #000;
+}
+.help-block{
+    color: red;
+}
+
+.side-nav li > a {
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+}
+
+.modal-content h4 {
+  background: blue;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+.badge {
+    background: blue;
+}
+
+.tabs .tab a:hover{
+    background-color: rgba(1, 46, 255, 0);
+    border-bottom: 1px blue solid;
+}
+
+.tabs .tab a.active {
+    background-color: rgba(1, 46, 255, 0);
+    border-bottom: 1px blue solid;
+}
